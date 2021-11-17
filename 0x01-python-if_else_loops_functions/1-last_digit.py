@@ -8,9 +8,9 @@ elif number == 0:
 else:
             last = (number % -10) * -1
 if last > 5:
-        x = "and is greater than 5"
+            x = "and is greater than 5"
 elif last == 0:
-        x = "and is 0"
+            x = "and is 0"
 elif last < 6 and last != 0:
-        x = "and is less than 6 and not 0"
-        print("Last digit of {:d} is {:d} {:s}".format(number, last, x))
+            x = "and is less than 6 and not 0"
+            print("Last digit of {:d} is {:d} {:s}".format(number, last, x))
