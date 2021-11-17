@@ -6,7 +6,7 @@ if number > 0:
 elif number == 0:
             last = "0"
 else:
-            last = (number % -10) * -1
+            last = number % -10
 if last > 5:
             x = "and is greater than 5"
 elif last == 0:
